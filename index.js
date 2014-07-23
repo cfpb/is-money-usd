@@ -1,9 +1,6 @@
 /*
- * is-money
- *
- *
- * Copyright (c) 2014
- * Licensed under the  license.
+ * is-money-usd
+ * @param {string OR number} string or number to be checked if in a currency format.
  */
 
 'use strict';
