@@ -2,7 +2,7 @@
 
 Test for a USD formatted input
 
-[![Build Status](https://secure.travis-ci.org/cfpb/is-money.png?branch=master)](http://travis-ci.org/cfpb/is-money-usd)
+[![Build Status](https://travis-ci.org/cfpb/is-money-usd.svg)](http://travis-ci.org/cfpb/is-money-usd)
 
 ## Installation
 
