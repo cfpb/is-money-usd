@@ -1,6 +1,6 @@
 {
   "name": "is-money-usd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "description": "Test for a USD currency formatted input",
   "homepage": "https://github.com/cfpb/is-money-usd",
