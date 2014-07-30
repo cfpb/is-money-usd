@@ -10,7 +10,7 @@ module.exports = function(num) {
   // convert the number to a string
   num = num.toString();
 
-  var numReg = /^\$?(?!0\.00)\d{1,3}(,\d{3})*(\.\d\d)?$/;
+  var numReg = /^\$?\d{1,3}(,\d{3})*(\.\d*)?$/;
 
   // check for numbers and regex patterns
   if ( ( !isNaN(+num) ) ||
