@@ -58,5 +58,14 @@ exports.isMoney = {
     test.equal(isMoney('3,672.38'), true, 'commas and decimals should return true');
     test.equal(isMoney(',45$.00'), false, 'incorrectly formatted $ strings should return false');
     test.done();
-  }
+  },
+  "Dollar strings vs. Floats":function(test) {
+    test.expect(4);
+    test.equal(isMoney("$3."),isMoney(3.),"Dollar strings that would otherwise parse as floats show return true");
+    test.equal(isMoney("$3.1"),isMoney(3.1),"Dollar strings that would otherwise parse as floats show return true");
+    test.equal(isMoney("$3.14"),isMoney(3.14),"Dollar strings that would otherwise parse as floats show return true");
+    test.equal(isMoney("$3.141"),isMoney(3.141),"Dollar strings that would otherwise parse as floats show return true");
+    test.done();
+  } 
+
 };
