@@ -4,14 +4,14 @@
   "main": "index.js",
   "description": "Test for a USD currency formatted input",
   "homepage": "https://github.com/cfpb/is-money-usd",
-  "bugs": "https://github.com/cfpb/is-money/issues",
+  "bugs": "https://github.com/cfpb/is-money-usd/issues",
   "author": {
     "name": "Consumer Financial Protection Bureau",
     "url": "http://consumerfinance.gov"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cfpb/is-money"
+    "url": "https://github.com/cfpb/is-money-usd"
   },
   "license": "Public Domain",
   "keywords": [
